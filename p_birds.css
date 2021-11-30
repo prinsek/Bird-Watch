@@ -1,0 +1,47 @@
+body {
+    background-color: aqua;
+
+}
+.design{
+    background-color: rgb(165, 45, 45);
+    padding: 1px;
+    border-radius: 15px;
+}
+.design li{
+    display: inline;
+}
+
+ .design a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: blue;
+
+ }
+ .disabled{
+    pointer-events: none;
+    cursor: default;
+ }
+ div ul li a:hover{
+       font-size: 25px;
+       color: white;
+ }
+ header {
+    color: seashell;
+    font-size: 35px;
+    margin-top: 10px;   
+}
+h2,p,ul{
+    color: rgb(35, 50, 252);
+}
+h2{
+    font-size: 25px;
+}
+p{
+    font-size: 17px;
+}
+img {
+    height: 150px;
+    width: 250px;
+    border-radius: 20px;
+}
